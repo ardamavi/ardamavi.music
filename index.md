@@ -2,6 +2,47 @@
 
 <center>
 
-<h1 style="font-size: 3em;"><a href="/" style="color: inherit !important; text-decoration: none !important;">Music World of Arda Mavi</a></h1>
+<p style="font-size: 3em; font-weight: bold; margin: 0;">
+  <a href="/" style="color: inherit !important; text-decoration: none !important;">
+    Arda Mavi<span style="font-size: 0.5em; vertical-align: super;">.rocks</span>
+  </a>
+</p>
+
+<hr/>
+
+## About Me
+
+<div style="display: flex; align-items: center; gap: 20px;">
+<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="width: 120px; border-radius: 8px;">
+<div>
+I’m Arda Mavi. I’ve transitioned from my past in computer science ( [previous resume](https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing) ) to fully embrace music.<br/>
+My compositions are conversations with myself. I hope they whisper to you too.
+</div>
+</div>
+
+<br/>
+
+## Portfolio
+
+Portfolio: <a href="/" target="_blank"> SOON </a><br/>
+Published Compositions: <a href="https://musescore.com/user/94163242" target="_blank"> MuseScore Profile </a><br/>
+
+<br/>
+
+## What I’m Creating
+
+I compose music with a cinematic soul, often moody, bohemian, and emotionally textured. My solo works lean toward film-inspired soundscapes, while my rock and hard rock compositions are released under the name <b>Nodelusion</b> on music platforms.
+
+<br/>
+
+## Connect
+
+My personal e-mail address: ardamavi2 [at] gmail.com
+
+<br/>
+
+<br/>
+Copyright © 2025 - &#8734; Arda Mavi — Original content.
+<br/>
 
 </center>
