@@ -4,11 +4,11 @@
 
 <p style="font-size: 3em; font-weight: bold; margin: 0;">
   <a href="/" style="color: inherit !important; text-decoration: none !important;">
-    Arda Mavi<span style="font-size: 0.5em; vertical-align: super;">.rocks</span>
+    Arda Mavi<span style="font-size: 0.5em; vertical-align: baseline;">.rocks</span>
   </a>
 </p>
 
-<hr/>
+</center>
 
 ## About Me
 
@@ -45,4 +45,3 @@ My personal e-mail address: ardamavi2 [at] gmail.com
 Copyright © 2025 - &#8734; Arda Mavi — Original content.
 <br/>
 
-</center>
