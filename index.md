@@ -35,6 +35,13 @@ I compose music with a cinematic soul, often moody, bohemian, and emotionally te
 
 <br/>
 
+## Listen Nodelusion on
+- <a href="https://open.spotify.com/artist/7guvSP8piCOmmFJVYRKfSR" target="_blank">Spotify</a>
+- <a href="https://music.apple.com/artist/nodelusion/1778602194" target="_blank">Apple Music</a>
+- <a href="https://www.youtube.com/channel/UCAYcKVocP8oakBkmLgAJXzQ" target="_blank">YouTube Music</a>
+
+<br/>
+
 ## Connect
 
 My personal e-mail address: ardamavi2 [at] gmail.com
@@ -42,6 +49,8 @@ My personal e-mail address: ardamavi2 [at] gmail.com
 <br/>
 
 <br/>
+<center>
 Copyright © 2025 - &#8734; Arda Mavi — Original content.
+</center>
 <br/>
 
