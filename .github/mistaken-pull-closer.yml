@@ -1,0 +1,5 @@
+filters:
+  - true
+commentBody: |
+  Pull requests are not allowed.
+addLabel: false
