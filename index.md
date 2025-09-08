@@ -22,16 +22,16 @@ My compositions are conversations with myself. I hope they whisper to you too.
 
 <br/>
 
-## Portfolio
-
-Portfolio: <a href="/" target="_blank"> SOON </a><br/>
-Published Compositions: <a href="https://musescore.com/user/94163242" target="_blank"> MuseScore Profile </a><br/>
-
-<br/>
-
 ## What I’m Creating
 
 I compose music with a cinematic soul, often moody, bohemian, and emotionally textured. My solo works lean toward film-inspired soundscapes, while my rock and hard rock compositions are released under the name <b>Nodelusion</b> on music platforms.
+
+<br/>
+
+## Portfolio
+
+Portfolio: <a href="https://drive.google.com/drive/folders/11meqv9E9akefFGFUe_mjDHS610dwX_pv?usp=sharing" target="_blank"> Google Drive </a><br/>
+Published Compositions: <a href="https://musescore.com/user/94163242" target="_blank"> MuseScore Profile </a><br/>
 
 <br/>
 
@@ -44,13 +44,16 @@ I compose music with a cinematic soul, often moody, bohemian, and emotionally te
 
 ## Connect
 
-My personal e-mail address: ardamavi2 [at] gmail.com
+
 
 <br/>
 
 ## Stay Connected
 
-I’ve stepped away from all social media to build a more genuine connection with my listeners.<br/>
+My personal e-mail address: ardamavi2 [at] gmail.com<br/>
+
+I’ve stepped away from all social media.<br/>
+I want to connect with my listeners in a more genuine way.<br/>
 Join my e-mail list to receive updates: <a href="https://ardamavirocks.kit.com" target="_blank">Subscribe</a>
 
 <br/>
