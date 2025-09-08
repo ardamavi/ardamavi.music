@@ -44,12 +44,6 @@ Published Compositions: <a href="https://musescore.com/user/94163242" target="_b
 
 ## Connect
 
-
-
-<br/>
-
-## Stay Connected
-
 My personal e-mail address: ardamavi2 [at] gmail.com<br/>
 
 I’ve stepped away from all social media.<br/>
