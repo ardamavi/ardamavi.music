@@ -42,7 +42,7 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 My personal e-mail address: ardamavi2 [at] gmail.com<br/>
 
 I’ve stepped away from all social media.<br/>
-I want to connect with my music community in a more genuine way:<br/>
+I want to build a more genuine connection with my music community:<br/>
 Join my e-mail list to receive updates: <a href="https://ardamavirocks.kit.com" target="_blank">Subscribe</a>
 
 <br/>
