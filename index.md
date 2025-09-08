@@ -16,7 +16,7 @@
 <img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 150px; height: auto; border-radius:8px; flex-shrink: 0;">
 <div style="flex: 1; min-width: 300px;">
 I’m Arda Mavi. I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
-I now compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my alternative, rock and hard rock compositions are released under the name <b>Nodelusion</b> (<a href="#listen-nodelusion-on">links below</a>) on music platforms.<br/>
+I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture, blending film‑inspired soundscapes with alternative, rock, and hard rock. I release some of my works on music platforms under the name <b>Nodelusion</b> (<a href="#listen-nodelusion-on">links below</a>).<br/>
 I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.
 </div>
 </div>
