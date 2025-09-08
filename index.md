@@ -16,7 +16,8 @@
 <img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 150px; height: auto; border-radius:8px; flex-shrink: 0;">
 <div style="flex: 1; min-width: 300px;">
 I’m Arda Mavi. I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
-I now compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my rock and hard rock compositions are released under the name <b>Nodelusion</b> (<a href="#listen-nodelusion-on">links below</a>) on music platforms. Recently, the violin and piano have joined my electric and bass guitars on this musical journey.
+I now compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my rock and hard rock compositions are released under the name <b>Nodelusion</b> (<a href="#listen-nodelusion-on">links below</a>) on music platforms.<br/>
+I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.
 </div>
 </div>
 
@@ -41,7 +42,7 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 My personal e-mail address: ardamavi2 [at] gmail.com<br/>
 
 I’ve stepped away from all social media.<br/>
-I want to connect with my listeners in a more genuine way.<br/>
+I want to connect with my listeners in a more genuine way:<br/>
 Join my e-mail list to receive updates: <a href="https://ardamavirocks.kit.com" target="_blank">Subscribe</a>
 
 <br/>
