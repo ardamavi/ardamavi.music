@@ -50,7 +50,7 @@ My personal e-mail address: ardamavi2 [at] gmail.com
 
 <br/>
 <center>
-Copyright © 2025 - &#8734; Arda Mavi - Original content.
+Copyright © 2025 - &#8734; Arda Mavi - All Rights Reserved.
 </center>
 <br/>
 
