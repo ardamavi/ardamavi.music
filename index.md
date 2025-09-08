@@ -10,11 +10,11 @@
 
 </center>
 
-<br/>
+## Bio
 
-<div style="display: flex; gap: 20px;">
-<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" width=150 border-radius=8px>
-<div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 150px; height: auto; border-radius:8px; flex-shrink: 0;">
+<div style="flex: 1;">
 I’m Arda Mavi. I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
 I now compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my rock and hard rock compositions are released under the name <b>Nodelusion</b> (<a href="#listen-nodelusion-on">links below</a>) on music platforms. Recently, the violin and piano have joined my electric and bass guitars on this musical journey.
 </div>
