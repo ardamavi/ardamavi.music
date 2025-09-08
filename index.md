@@ -10,7 +10,7 @@
 
 </center>
 
-## Bio
+## Introduction
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
 <img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 150px; height: auto; border-radius:8px; flex-shrink: 0;">
