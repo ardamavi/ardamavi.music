@@ -13,7 +13,7 @@
 ## About Me
 
 <div style="display: flex; gap: 20px;">
-<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="width: 150; border-radius: 8px;">
+<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="width: 150px; border-radius: 8px;">
 <div>
 I’m Arda Mavi. I’ve transitioned from my past in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank"> previous resume </a>) to fully embrace music.<br/>
 My compositions are conversations with myself. I hope they whisper to you too.
