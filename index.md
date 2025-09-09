@@ -49,7 +49,7 @@ Join my e-mail list to receive updates: <a href="https://ardamavirocks.kit.com" 
 
 <br/>
 <center>
-Copyright © 2025 - &#8734; Arda Mavi - All Rights Reserved.
+Copyright &copy; 2025 - Arda Mavi - All Rights Reserved.
 </center>
 <br/>
 
