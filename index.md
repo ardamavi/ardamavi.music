@@ -13,10 +13,10 @@
 ## Introduction
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
-<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 150px; height: auto; border-radius:8px; flex-shrink: 0;">
+<img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 200px; height: auto; border-radius:8px; flex-shrink: 0;">
 <div style="flex: 1; min-width: 300px;">
 I’m Arda Mavi. I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
-I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture, blending film‑inspired soundscapes with alternative, rock, and hard rock. I release some of my works on music platforms under the name <b>Nodelusion</b> (<a href="#listen-nodelusion-on">links below</a>).<br/>
+I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture, blending film‑inspired soundscapes with alternative, rock, and hard rock. Some of my works are available on music platforms, <a href="#stream-my-music">see below</a>.<br/>
 I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.
 </div>
 </div>
@@ -30,7 +30,7 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 
 <br/>
 
-## Listen Nodelusion on
+## Stream My Music
 - <a href="https://open.spotify.com/artist/7guvSP8piCOmmFJVYRKfSR" target="_blank">Spotify</a>
 - <a href="https://music.apple.com/artist/nodelusion/1778602194" target="_blank">Apple Music</a>
 - <a href="https://www.youtube.com/channel/UCAYcKVocP8oakBkmLgAJXzQ" target="_blank">YouTube Music</a>
