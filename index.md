@@ -49,6 +49,8 @@ Join my e-mail list to receive updates: <a href="https://ardamavirocks.kit.com" 
 
 <br/>
 
+<hr/>
+
 <br/>
 <center>
 Copyright &copy; 2025 - Arda Mavi - All Rights Reserved.
