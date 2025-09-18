@@ -41,7 +41,9 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 
 ## Curated Playlists
 On my personal Spotify account, I share a few public playlists featuring tracks I enjoy beyond my own work, mostly alternative, rock, and hard rock.<br/>
-See my <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify Profile</a>
+See my <a href="https://open.spotify.com/user/ardamavi/playlists" target="_blank">Spotify Playlists</a>
+
+
 
 <br/>
 
