@@ -40,8 +40,12 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 <br/>
 
 ## Curated Playlists
-Beyond my own work, I share a few public playlists featuring music I love, mostly alternative, rock, and hard rock.<br/>
-See my <a href="https://open.spotify.com/user/ardamavi/playlists" target="_blank">Spotify Playlists</a> or <a href="https://soundcloud.com/nodelusion/sets" target="_blank">Soundcloud Playlists</a>.
+On my personal Spotify account, I share a few public playlists featuring tracks I enjoy beyond my own work, mostly alternative, rock, and hard rock.<br/>
+See my <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify Profile</a>
+
+
+<br/>
+
 
 <br/>
 
