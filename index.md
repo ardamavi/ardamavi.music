@@ -15,9 +15,10 @@
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
 <img src="assets/profile_photo.png" alt="Arda Mavi Profile Photo" style="max-width: 150px; height: auto; border-radius:8px; flex-shrink: 0;">
 <div style="flex: 1; min-width: 300px;">
-I’m Arda Mavi. I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
-I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my alternative, rock, and hard rock compositions reflect various emotions, sometimes aggressive, sometimes melancholic. Some of my works are available on music platforms, <a href="#stream-my-music">see below</a>.<br/>
-I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.
+I’m Arda Mavi. I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my alternative, rock, and hard rock compositions reflect various emotions, sometimes aggressive, sometimes melancholic. Some of my works are available on music platforms, <a href="#stream-my-music">see below</a>.<br/>
+I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.<br/>
+I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
+My creative process is entirely human. I do not use artificial intelligence in any part of my music, including album artwork.
 </div>
 </div>
 
