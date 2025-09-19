@@ -35,6 +35,7 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 - <a href="https://music.apple.com/artist/nodelusion/1778602194" target="_blank">Apple Music</a>
 - <a href="https://www.youtube.com/channel/UCAYcKVocP8oakBkmLgAJXzQ" target="_blank">YouTube Music</a>
 - <a href="https://soundcloud.com/nodelusion" target="_blank">SoundCloud</a>
+- <a href="https://nodelusion.bandcamp.com" target="_blank">Bandcamp</a>
 - <a href="https://audius.co/ardamavi" target="_blank">Audius</a>
 
 <br/>
@@ -42,10 +43,6 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 ## Curated Playlists
 My personal Spotify account includes public playlists showcasing music I love outside my own creations, especially in alternative, rock, and hard rock genres.<br/>
 See my <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify Profile</a>.
-
-
-<br/>
-
 
 <br/>
 
