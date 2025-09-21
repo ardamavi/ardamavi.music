@@ -17,7 +17,7 @@
 <div style="flex: 1; min-width: 300px;">
 I’m Arda Mavi. I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo works lean toward film-inspired soundscapes, while my alternative, rock, and hard rock compositions reflect various emotions, sometimes aggressive, sometimes melancholic. Some of my works are available on music platforms, <a href="#stream-my-music">see below</a>.<br/>
 I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.<br/>
-I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Zki9-TCV3oJW5Fe-Cn_r0m2JVh0XOL1S/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
+I’ve transitioned from a background in computer science (<a href="https://drive.google.com/file/d/1Bv0KGC7E9k_dF3JuUo-wkvrPxc1NVhqy/view?usp=sharing" target="_blank">previous resume</a>) to fully embrace music.<br/>
 My creative process is entirely human. I do not use artificial intelligence in any part of my music, including album artwork.
 </div>
 </div>
@@ -26,7 +26,7 @@ My creative process is entirely human. I do not use artificial intelligence in a
 
 ## Portfolio
 
-Portfolio: <a href="https://drive.google.com/drive/folders/11meqv9E9akefFGFUe_mjDHS610dwX_pv?usp=sharing" target="_blank"> Google Drive </a><br/>
+Portfolio: <a href="https://drive.google.com/drive/folders/1HRhZsxVpIBcK7ONIgqh1S-wPZY5XHVE6?usp=sharing" target="_blank"> Google Drive </a><br/>
 All Published Compositions: <a href="https://musescore.com/user/94163242" target="_blank"> MuseScore Profile </a><br/>
 
 <br/>
@@ -49,7 +49,7 @@ See my <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify 
 
 ## Connect
 
-My personal e-mail address: ardamavi2 [at] gmail.com<br/>
+My personal e-mail address: ardamavimusic [at] gmail.com<br/>
 
 I’ve stepped away from all social media.<br/>
 I want to build a more genuine connection with my music community:<br/>
