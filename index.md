@@ -37,7 +37,6 @@ All Published Compositions: <a href="https://musescore.com/user/94163242" target
 - <a href="https://www.youtube.com/channel/UCAYcKVocP8oakBkmLgAJXzQ" target="_blank">YouTube Music</a>
 - <a href="https://soundcloud.com/nodelusion" target="_blank">SoundCloud</a>
 - <a href="https://nodelusion.bandcamp.com" target="_blank">Bandcamp</a>
-- <a href="https://audius.co/ardamavi" target="_blank">Audius</a>
 
 <br/>
 
