@@ -47,11 +47,7 @@ See my <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify 
 
 ## Connect
 
-My personal e-mail address: ardamavimusic [at] gmail.com<br/>
-
-I’ve stepped away from all social media.<br/>
-I want to build a more genuine connection with my music community:<br/>
-Join my e-mail list to receive updates: <a href="https://ardamavirocks.kit.com" target="_blank">Subscribe</a>
+Contact me directly via e-mail: ardamavimusic [at] gmail.com<br/>
 
 <br/>
 
