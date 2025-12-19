@@ -26,7 +26,7 @@ My creative process is entirely human. I do not use artificial intelligence in a
 
 ## Portfolio
 
-Portfolio: <a href="https://drive.google.com/drive/folders/1HRhZsxVpIBcK7ONIgqh1S-wPZY5XHVE6?usp=sharing" target="_blank"> Google Drive </a><br/>
+Portfolio: <a href="https://drive.google.com/drive/folders/1ilqhjfsTB0HgjGcswXgufjDY1ETictw5?usp=sharing" target="_blank"> Google Drive </a><br/>
 All Published Compositions: <a href="https://musescore.com/user/94163242" target="_blank"> MuseScore Profile </a><br/>
 
 <br/>
