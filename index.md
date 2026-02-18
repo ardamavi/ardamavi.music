@@ -45,6 +45,11 @@ See my <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify 
 
 <br/>
 
+## Blog
+Join me on my musical journey: <a href="https://medium.com/@ardamavi" target="_blank">Medium</a>
+
+<br/>
+
 ## Connect
 
 Contact me directly via e-mail: ardamavimusic [at] gmail.com<br/>
