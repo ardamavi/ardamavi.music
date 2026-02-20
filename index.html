@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- SEO Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arda Mavi | Music Portfolio</title>
+  <meta name="description" content="Arda Mavi Music Portfolio." />
+  <meta name="keywords" content="Arda Mavi, composer, music, musical portfolio, original music, sheet music, music blog" />
+  <meta name="author" content="Arda Mavi" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #1f1f1f, #000000);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0 auto 20px auto;
+      color: #cccccc;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      transition: 0.3s ease;
+    }
+
+    a:hover {
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .tracks {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .track {
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .track h3 {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .track audio {
+      width: 100%;
+    }
+
+    .links-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .platforms {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px; /* minimal spacing */
+      justify-items: center;
+    }
+
+    .platforms a img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: 0.3s ease;
+    }
+
+    .platforms a img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (min-width: 768px) {
+      .tracks {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .links-row {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="assets/profile_photo.png" alt="Arda Mavi profile photo" class="profile-img">
+    <h1>Arda Mavi</h1>
+    <p>Composer | Music Portfolio</p>
+    <p><a href="#about_me">About Me</a></p>
+    <p><a href="#music">Listen my Music</a></p>
+  </header>
+
+  <section id="about_me">
+    <h2>About Me</h2>
+    <p>
+      I’m Arda Mavi. I compose music with a cinematic soul, often moody, bohemian, and rich in emotional texture. My solo
+      works lean toward film-inspired soundscapes, while my alternative, rock, and hard rock compositions reflect various
+      emotions, sometimes aggressive, sometimes melancholic. Some of my works are available on music platforms.<br/>
+      I play Electric and Bass Guitar, and recently the Violin and Piano have joined my musical journey.
+    </p>
+  </section>
+
+  <section id="music">
+    <h2>Featured Tracks</h2>
+    <div class="tracks">
+      <div class="track">
+        <h3>Decadence</h3>
+        <audio controls>
+          <source src="sounds/decadence.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="track">
+        <h3>The Spirit Tree</h3>
+        <audio controls>
+          <source src="sounds/the_spirit_tree.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="track">
+        <h3>Dodecett for 12 Instruments</h3>
+        <audio controls>
+          <source src="sounds/dodecett.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Music & Sheet Compositions</h2>
+    <div class="links-row">
+
+      <div>
+        <p>
+          Sheet music available on 
+          <a href="https://musescore.com/user/94163242" target="_blank">MuseScore</a>
+        </p>
+      </div>
+
+      <div class="platforms">
+        <a href="https://open.spotify.com/artist/7guvSP8piCOmmFJVYRKfSR" target="_blank">
+          <img src="assets/spotify-logo" alt="Listen on Spotify">
+        </a>
+        <a href="https://music.apple.com/artist/nodelusion/1778602194" target="_blank">
+          <img src="assets/apple-music-logo" alt="Listen on Apple Music">
+        </a>
+        <a href="https://www.youtube.com/channel/UCtfZwk78F2CLloqGMblsk-w" target="_blank">
+          <img src="assets/youtube-logo" alt="Watch on YouTube">
+        </a>
+        <a href="https://soundcloud.com/nodelusion" target="_blank">
+          <img src="assets/soundcloud-logo" alt="Listen on SoundCloud">
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Blog</h2>
+    <p>
+      Join me on my musical journey:
+      <a href="https://medium.com/@ardamavi" target="_blank">Medium</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Contact me directly via e-mail: <strong>ardamavimusic [at] gmail.com</strong></p>
+  </section>
+
+  <footer>
+    © 2026 Arda Mavi. All rights reserved.
+  </footer>
+
+</body>
+</html>
