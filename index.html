@@ -120,30 +120,25 @@
       width: 100%;
     }
 
-    .links-row {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 40px;
-      align-items: center;
-    }
-
     .platforms {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, auto);
       gap: 12px;
       justify-items: center;
+      margin: 0 auto;
+      width: fit-content;
     }
 
     .platforms a img {
-      width: 80px;
-      height: 80px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       object-fit: cover;
       transition: 0.3s ease;
     }
 
     .platforms a img:hover {
-      transform: scale(1.05);
+      transform: scale(1.1);
     }
 
     footer {
@@ -157,12 +152,7 @@
       .tracks {
         grid-template-columns: repeat(3, 1fr);
       }
-
-      .links-row {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
+      
       h1 {
         font-size: 3rem;
       }
@@ -212,7 +202,7 @@
 
   <section>
     <h2>Music & Sheet Compositions</h2>
-    <div class="links-row">
+    <div>
 
       <div>
         <p>
