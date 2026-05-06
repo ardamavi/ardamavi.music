@@ -14,7 +14,7 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Arda Mavi | Music Portfolio" />
   <meta property="og:description" content="Cinematic, moody, bohemian compositions by composer Arda Mavi." />
-  <meta property="og:image" content="https:/ardamavi.music/assets/profile_photo.png" />
+  <meta property="og:image" content="https://ardamavi.music/assets/profile_photo.png" />
   <meta property="og:url" content="https://ardamavi.music" />
   <meta property="og:type" content="website" />
   <link rel="canonical" href="https://ardamavi.music" />
@@ -22,7 +22,12 @@
   <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+  </noscript>
 
   <style>
     * {
@@ -96,7 +101,8 @@
       transition: 0.3s ease;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
       border-bottom: 1px solid #ffffff;
     }
 
@@ -212,11 +218,11 @@
 
 <body>
 
-  <header>
+  <header role="banner">
     <img src="assets/profile_photo.png" alt="Arda Mavi profile photo" class="profile-img" width="300" height="300" fetchpriority="high">
     <h1>Arda Mavi</h1>
     <p>Composer Candidate | Music Portfolio</p>
-    &darr;
+    <span aria-hidden="true">&darr;</span>
   </header>
 
   <section id="about_me">
@@ -265,9 +271,6 @@
       </details>
       </div>
 
-      <!--Vimeo Script-->
-      <script src="https://player.vimeo.com/api/player.js"></script>
-
       <div class="track">
         <h3>Supermassive Black Hole - MUSE (Bass Line)</h3>
         <div style="padding:56.25% 0 0 0;position:relative;"><iframe loading="lazy"
@@ -286,52 +289,55 @@
     </div>
   </section>
 
-  <section>
+  <section id="sheet-platforms">
     <h2>Music & Sheet Compositions</h2>
 
     <div>
       <p>
         Sheet music available on 
-        <a href="https://musescore.com/user/94163242" target="_blank">MuseScore</a>
+        <a href="https://musescore.com/user/94163242" target="_blank" rel="noopener noreferrer">MuseScore</a>
       </p>
     </div>
     <br/>
     <div class="platforms">
-      <a href="https://open.spotify.com/artist/7guvSP8piCOmmFJVYRKfSR" target="_blank">
+      <a href="https://open.spotify.com/artist/7guvSP8piCOmmFJVYRKfSR" target="_blank" rel="noopener noreferrer" aria-label="Listen to Arda Mavi on Spotify">
         <img src="assets/spotify-logo.png" alt="Listen on Spotify" width="65" height="65" loading="lazy" >
       </a>
-      <a href="https://music.apple.com/artist/nodelusion/1778602194" target="_blank">
+      <a href="https://music.apple.com/artist/nodelusion/1778602194" target="_blank" rel="noopener noreferrer" aria-label="Listen to Arda Mavi on Apple Music">
         <img src="assets/apple-music-logo.png" alt="Listen on Apple Music" width="65" height="65" loading="lazy" >
       </a>
-      <a href="https://www.youtube.com/channel/UCAYcKVocP8oakBkmLgAJXzQ" target="_blank">
+      <a href="https://www.youtube.com/channel/UCAYcKVocP8oakBkmLgAJXzQ" target="_blank" rel="noopener noreferrer" aria-label="Listen to Arda Mavi on YouTube">
         <img src="assets/youtube-logo.png" alt="Watch on YouTube" width="65" height="65" loading="lazy" >
       </a>
-      <a href="https://soundcloud.com/nodelusion" target="_blank">
+      <a href="https://soundcloud.com/nodelusion" target="_blank" rel="noopener noreferrer" aria-label="Listen to Arda Mavi on SoundCloud">
         <img src="assets/soundcloud-logo.png" alt="Listen on SoundCloud" width="65" height="65" loading="lazy" >
       </a>
     </div>
 
   </section>
 
-  <section>
+  <section id="blog_playlist">
     <h2>Blog and Curated Playlists</h2>
     <p>
       Join me on my musical journey:
-      <a href="https://medium.com/@ardamavi" target="_blank">Medium</a>
+      <a href="https://medium.com/@ardamavi" target="_blank" rel="noopener noreferrer">Medium</a>
       <br/><br/>
       Curated playlists:
-      <a href="https://open.spotify.com/user/ardamavi" target="_blank">Spotify Profile</a>
+      <a href="https://open.spotify.com/user/ardamavi" target="_blank" rel="noopener noreferrer">Spotify Profile</a>
     </p>
   </section>
 
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
     <p>Contact me directly via e-mail: <strong>ardamavimusic [at] gmail.com</strong></p>
   </section>
 
   <footer>
-    © 2026 Arda Mavi. All rights reserved.
+    &copy; 2026 Arda Mavi. All rights reserved.
   </footer>
+
+  <!--Vimeo Script-->
+  <script src="https://player.vimeo.com/api/player.js" defer></script>
 
 </body>
 </html>
