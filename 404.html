@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <script>
-    window.location.replace("https://ardamavi.music");
-  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>404 | Page Not Found</title>
+  <meta name="robots" content="noindex">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    media="print" onload="this.media='all'">
+
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+  </noscript>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    html {
+      background: #000000;
+      overflow-x: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to bottom right, #151821, #000000);
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #cccccc;
+      margin-bottom: 30px;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      transition: 0.3s ease;
+    }
+
+    a:hover,
+    a:focus-visible {
+      border-bottom: 1px solid #ffffff;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 6rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
 </head>
-<body></body>
+
+<body>
+
+  <main class="container">
+    <h1>404</h1>
+    <p>Page not found.</p>
+    <a href="https://ardamavi.music">Return to Homepage</a>
+  </main>
+
+</body>
+
 </html>
