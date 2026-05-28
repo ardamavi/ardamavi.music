@@ -194,6 +194,72 @@
         font-size: 3rem;
       }
     }
+
+    /* Cookie Placeholder */
+    .cookie-placeholder {
+      background: #0d0f14;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+    }
+
+    .cookie-placeholder .cp-icon {
+      font-size: 1.6rem;
+      opacity: 0.5;
+    }
+
+    .cookie-placeholder .cp-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    .cookie-placeholder .cp-text {
+      font-size: 0.78rem;
+      color: #666;
+      margin: 0;
+      max-width: 260px;
+      line-height: 1.5;
+    }
+
+    .cookie-placeholder .cp-btn {
+      margin-top: 4px;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.25);
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.5px;
+      padding: 8px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: border-color 0.3s, background 0.3s;
+    }
+
+    .cookie-placeholder .cp-btn:hover {
+      border-color: rgba(255,255,255,0.6);
+      background: rgba(255,255,255,0.05);
+    }
+
+    /* Wrapper for the Vimeo rate */
+    .vimeo-wrapper {
+      padding: 56.25% 0 0 0;
+      position: relative;
+    }
+
+    .vimeo-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+
   </style>
 
   <script type="application/ld+json">
@@ -238,7 +304,9 @@
 
       <div class="track">
         <h3>String Quartet in C Minor</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="String Quartet in C Minor by Arda Mavi on SoundCloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2320708913&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+        <div class="sc-placeholder" data-title="String Quartet in C Minor"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2320708913&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+        </div>
         <details class="track-description">
           <summary>Description</summary>
           <p>
@@ -249,7 +317,9 @@
       
       <div class="track">
         <h3>Decadence</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="Decadence by Arda Mavi on SoundCloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2190205243&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+        <div class="sc-placeholder" data-title="Decadence"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2190205243&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+        </div>
         <details class="track-description">
           <summary>Description</summary>
           <p>
@@ -260,7 +330,9 @@
       
       <div class="track">
         <h3>The Spirit Tree</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="The Spirit Tree by Arda Mavi on SoundCloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2226886916&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+        <div class="sc-placeholder" data-title="The Spirit Tree"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2226886916&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+        </div>
         <details class="track-description">
           <summary>Description</summary>
           <p>
@@ -271,11 +343,9 @@
 
       <div class="track">
         <h3>Supermassive Black Hole - MUSE (Bass Line)</h3>
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe loading="lazy"
-            src="https://player.vimeo.com/video/1189555767?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;"
-            title="Supermassive Black Hole - MUSE (Bass Guitar Cover by Arda Mavi)"></iframe></div>
+        <div class="vi-placeholder" data-title="Supermassive Black Hole — Bass Line"
+          data-src="https://player.vimeo.com/video/1189555767?badge=0&autopause=0&player_id=0&app_id=58479">
+        </div>
         <details class="track-description">
           <summary>Description</summary>
           <p>
@@ -334,8 +404,44 @@
     &copy; 2026 Arda Mavi. All rights reserved.
   </footer>
 
-  <!--Vimeo Script-->
-  <script src="https://player.vimeo.com/api/player.js" defer></script>
+
+  <script>
+    // SoundCloud placeholders:
+    document.querySelectorAll('.sc-placeholder').forEach(function (ph) {
+      var src = ph.dataset.src;
+      var title = ph.dataset.title;
+      ph.innerHTML =
+        '<div class="cookie-placeholder">' +
+        '<span class="cp-icon">&#x266A;</span>' +
+        '<p class="cp-title">' + title + '</p>' +
+        '<p class="cp-text">SoundCloud uses cookies to play this track.</p>' +
+        '<button class="cp-btn" onclick="loadSC(this, \'' + src + '\')">Accept cookies</button>' +
+        '</div>';
+    });
+
+    function loadSC(btn, src) {
+        var ph = btn.closest('.sc-placeholder');
+        ph.innerHTML = '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="' + src + '"></iframe>';
+      }
+
+    // Vimeo placeholders:
+    document.querySelectorAll('.vi-placeholder').forEach(function (ph) {
+      var src = ph.dataset.src;
+      var title = ph.dataset.title;
+      ph.innerHTML =
+        '<div class="cookie-placeholder">' +
+        '<span class="cp-icon">&#x25B6;</span>' +
+        '<p class="cp-title">' + title + '</p>' +
+        '<p class="cp-text">Vimeo uses cookies to play this video.</p>' +
+        '<button class="cp-btn" onclick="loadVI(this, \'' + src + '\')">Accept cookies</button>' +
+        '</div>';
+    });
+
+    function loadVI(btn, src) {
+      var ph = btn.closest('.vi-placeholder');
+      ph.innerHTML = '<div class="vimeo-wrapper"><iframe src="' + src + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>';
+    }
+  </script>
 
 </body>
 </html>
