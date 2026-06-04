@@ -75,6 +75,16 @@
       border-bottom: 1px solid #ffffff;
     }
 
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
     @media (min-width: 768px) {
       h1 {
         font-size: 6rem;
@@ -95,6 +105,15 @@
     <a href="https://ardamavi.music">Return to Homepage</a>
   </main>
 
+  <footer>
+    &copy; <span id="year"></span> Arda Mavi. All rights reserved.
+  </footer>
+
+  <script>
+  // Footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  
 </body>
 
 </html>
