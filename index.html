@@ -384,7 +384,7 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Contact me directly via e-mail: <a href="mailto:mail@ardamavi.music">mail@ardamavi.music</a></p>
+    <p>Contact me directly via e-mail: <a href="mailto:contact@ardamavi.music">contact@ardamavi.music</a></p>
   </section>
 
   <footer>
@@ -411,26 +411,7 @@
         ph.innerHTML = '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="' + ph.dataset.src + '"></iframe>';
       });
     }
-
-    // Vimeo placeholders:
-    document.querySelectorAll('.vi-placeholder').forEach(function (ph) {
-      var src = ph.dataset.src;
-      var title = ph.dataset.title;
-      ph.innerHTML =
-        '<div class="cookie-placeholder">' +
-        '<span class="cp-icon">&#x25B6;</span>' +
-        '<p class="cp-title">' + title + '</p>' +
-        '<p class="cp-text">Vimeo uses cookies to play this video.</p>' +
-        '<button class="cp-btn" onclick="loadVI(this, \'' + src + '\')">Accept cookies</button>' +
-        '</div>';
-    });
-
-    function loadVI(btn, src) {
-      document.querySelectorAll('.vi-placeholder').forEach(function (ph) {
-        ph.innerHTML = '<div class="vimeo-wrapper"><iframe src="' + ph.dataset.src + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>';
-      });
-    }
-
+    
     // Footer
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
