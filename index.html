@@ -408,23 +408,22 @@
   <script>
     // SoundCloud placeholders:
     document.querySelectorAll('.sc-placeholder').forEach(function (ph) {
-      var src = ph.dataset.src;
       var title = ph.dataset.title;
       ph.innerHTML =
         '<div class="cookie-placeholder">' +
         '<span class="cp-icon">&#x266A;</span>' +
         '<p class="cp-title">' + title + '</p>' +
         '<p class="cp-text">SoundCloud uses cookies to play this track.</p>' +
-        '<button class="cp-btn" onclick="loadSC(this, \'' + src + '\')">Accept cookies</button>' +
+        '<button class="cp-btn" onclick="loadSC()">Accept cookies</button>' + // ← sadece loadSC()
         '</div>';
     });
 
-    function loadSC(btn, src) {
+    function loadSC() {
       document.querySelectorAll('.sc-placeholder').forEach(function (ph) {
         ph.innerHTML = '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="' + ph.dataset.src + '"></iframe>';
       });
     }
-    
+
     // Footer
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
