@@ -53,6 +53,7 @@
     html {
       background: #000000;
       overflow-x: hidden;
+      scroll-behavior: smooth;
     }
 
     body {
@@ -117,6 +118,22 @@
     a:hover,
     a:focus-visible {
       border-bottom: 1px solid #ffffff;
+    }
+
+    .scroll-arrow,
+    .scroll-arrow:hover,
+    .scroll-arrow:focus-visible {
+      border-bottom: none;
+    }
+
+    .scroll-arrow {
+      display: inline-block;
+      transition: transform .3s ease;
+    }
+
+    .scroll-arrow:hover,
+    .scroll-arrow:focus-visible {
+      transform: translateY(2px);
     }
 
     .about-text {
@@ -293,7 +310,7 @@
     <img src="assets/profile_photo.webp" alt="Arda Mavi profile photo" class="profile-img" width="300" height="300" fetchpriority="high">
     <h1>Arda Mavi</h1>
     <p>Composer | Music Portfolio</p>
-    <span aria-hidden="true">&darr;</span>
+    <a href="#about_me" class="scroll-arrow" aria-label="Scroll Down">&darr;</a>
   </header>
 
   <section id="about_me">
