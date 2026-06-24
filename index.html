@@ -278,6 +278,72 @@
       background: rgba(255,255,255,0.05);
     }
 
+    #menu {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 100;
+    }
+
+    #menu-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    #menu-btn span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background: #fff;
+      border-radius: 2px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    #menu.open #menu-btn span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+    #menu.open #menu-btn span:nth-child(2) { opacity: 0; }
+    #menu.open #menu-btn span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+    #menu-links {
+      list-style: none;
+      margin-top: 14px;
+      display: none;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 10px;
+      padding: 8px 18px 10px;
+    }
+
+    #menu.open #menu-links { display: block; }
+
+    #menu-links li {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+
+    #menu.open #menu-links li { animation: menuFade 0.3s ease forwards; }
+
+    @keyframes menuFade {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    #menu-links a {
+      display: block;
+      color: #ffffff;
+      font-size: 0.95rem;
+      line-height: 2.2;
+      border-bottom: none;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.9);
+    }
+
+    #menu-links a:hover,
+    #menu-links a:focus-visible { border-bottom: none; opacity: 0.7; }
+
   </style>
 
   <script type="application/ld+json">
@@ -301,6 +367,21 @@
 </head>
 
 <body>
+
+  <nav id="menu">
+    <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu-links">
+      <li><a href="#about_me">About Me</a></li>
+      <li><a href="#music">Featured Tracks</a></li>
+      <li><a href="#sheet-platforms">Music & Sheet Compositions</a></li>
+      <li><a href="#blog_playlist">Blog and Curated Playlists</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <header role="banner">
     <img src="assets/profile_photo.webp" alt="Arda Mavi profile photo" class="profile-img" width="300" height="300" fetchpriority="high">
@@ -478,6 +559,29 @@
 
 
   <script>
+
+    // Menu
+      const menu = document.getElementById('menu');
+      const btn = document.getElementById('menu-btn');
+
+      btn.addEventListener('click', () => {
+        const open = menu.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+
+        if (open) {
+          menu.querySelectorAll('#menu-links li').forEach((li, i) => {
+            li.style.animationDelay = (0.05 + i * 0.06) + 's';
+          });
+        }
+      });
+
+      document.querySelectorAll('#menu-links a').forEach(a =>
+        a.addEventListener('click', () => {
+          menu.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        })
+      );
+
     // SoundCloud placeholders:
     document.querySelectorAll('.sc-placeholder').forEach(function (ph) {
       var title = ph.dataset.title;
